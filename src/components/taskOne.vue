@@ -1,4 +1,5 @@
 <template>
+  <h2>{{ textTask }}</h2>
   <div class="root">{{ text }}</div>
   <div class="input-container">
     <button @click="decreaseNumber">-</button>
@@ -9,10 +10,11 @@
 
 <script>
 export default {
-  name: "MyComponent",
+  name: "taskOne",
   data() {
     return {
-      text: "Choose amount of products",
+      textTask: "Task One",
+      text: "Choose amount of products (Maximum:10)",
       minNumber: 1,
       maxNumber: 10,
       number: 1,
