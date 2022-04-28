@@ -13,7 +13,7 @@ export default {
   name: "taskOne",
   data() {
     return {
-      textTask: "Task One",
+      textTask: "Task 1",
       text: "Choose amount of products (Maximum:10)",
       minNumber: 1,
       maxNumber: 10,

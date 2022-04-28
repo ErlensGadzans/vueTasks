@@ -21,7 +21,7 @@ export default {
   name: "taskTwo",
   data() {
     return {
-      textTask: "Task Two",
+      textTask: "Task 2",
       textSubject: "Search for users",
       searchText: "",
       users: ["John", "Bill", "Evgenij", "Maris", "Janis"],
