@@ -1,8 +1,9 @@
 <template>
   <div class="app">
-    <taskOne />
+    <!-- <taskOne />
     <taskTwo />
-    <taskThree />
+    <taskThree /> -->
+    <taskFour />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import taskOne from "./components/taskOne.vue";
 import taskTwo from "./components/taskTwo.vue";
 import taskThree from "./components/taskThree.vue";
+import taskFour from "./components/taskFour.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     taskOne,
     taskTwo,
     taskThree,
+    taskFour,
   },
 };
 </script>
